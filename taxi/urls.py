@@ -19,6 +19,8 @@ from .views import (
     toggle_assign_to_car,
 )
 
+app_name = "taxi"
+
 urlpatterns = [
     path("", index, name="index"),
     path(
@@ -67,5 +69,3 @@ urlpatterns = [
         name="toggle-car-assign",
     ),
 ]
-
-app_name = "taxi"
